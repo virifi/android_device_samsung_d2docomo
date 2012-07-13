@@ -24,10 +24,10 @@
 -include device/samsung/d2-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2tmo/BoardConfigVendor.mk
+-include vendor/samsung/d2docomo/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2tmo
+TARGET_OTA_ASSERT_DEVICE := d2docomo
 
 # Kernel
 TARGET_KERNEL_SOURCE        := kernel/samsung/d2
