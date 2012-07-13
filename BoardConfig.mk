@@ -21,7 +21,7 @@
 #
 
 # inherit from common D2
--include device/samsung/d2-common/BoardConfigCommon.mk
+-include device/samsung/d2-common-docomo/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/d2docomo/BoardConfigVendor.mk
